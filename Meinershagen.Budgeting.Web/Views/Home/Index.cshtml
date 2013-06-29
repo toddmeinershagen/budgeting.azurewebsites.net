@@ -1,25 +1,42 @@
-﻿<div class="row">
-	<div class="large-12 columns">
-		<h2>Gazelle Budget</h2>
-		<h4>Online Budgeting Software</h4>
-		<hr />
-		<p>(Version 1.0.0.0)</p>
-	</div>
-</div>
+﻿<nav class="top-bar">
+    <ul class="title-area">
+        <li class="name">
+            <h1>
+                <a href="#">Gazelle Budgeting</a>
+            </h1>
+        </li>
+        @*We don't need this until we introduce any menu items*@
+        @*<li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>*@
+    </ul>
+</nav>
 	
 <div class="row">
-	<div class="large-8 columns">
-		<h3>Existing Budgets</h3>
-		<div class="row">
-			<div class="large-4 columns">
-				<p>Ellie is great!</p>
-			</div>
-			<div class="large-4 columns">
-				<p>This is just a test.</p>
-			</div>
-		</div>
+    <div class="large-8 columns">
+        <h3>Budgets</h3>
+
+        <div class="section-container tabs" data-section="">
+            <section class="section">
+                <h5 class="title"><a href="#panel1">Existing</a></h5>
+                <div class="content" data-slug="panel1">
+                    <form>
+                        <p>This is a placeholder for a grid of existing budgets.  (Name, Start Date, End Date)</p>
+                    </form>
+                </div>
+            </section>
+            <section class="section">
+                <h5 class="title"><a href="#panel2">Create New</a></h5>
+                <div class="content" data-slug="panel2">
+                    <form>
+                        <p>This is a placeholder for an entry form for starting a new budget.</p>
+                    </form>
+                </div>
+            </section>
+        </div>
+   
 	</div>
-	<div class="large-4 columns">
+    
+    
+    <div class="large-4 columns">
 		<div class="panel">
 			<h3>About Me</h3>
 			<p>My name is Todd Meinershagen and I am the creator of this tool.</p>
@@ -32,5 +49,6 @@
 			<p><input type="text"></input></p>
 			<p><a href="#" class="small button">Submit</a></p>
 		</div>
-	</div>
+    </div>
+
 </div>
